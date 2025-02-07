@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoBridge", "UmbracoBridge\UmbracoBridge.csproj", "{F18BBFAC-7CE3-4D4B-B88E-550D4A3C7363}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8EE45EE2-8A17-462A-978A-0FCD17BB2F04} = {8EE45EE2-8A17-462A-978A-0FCD17BB2F04}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoCMS", "..\UmbracoCMS\UmbracoCMS.csproj", "{8EE45EE2-8A17-462A-978A-0FCD17BB2F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F18BBFAC-7CE3-4D4B-B88E-550D4A3C7363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18BBFAC-7CE3-4D4B-B88E-550D4A3C7363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18BBFAC-7CE3-4D4B-B88E-550D4A3C7363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18BBFAC-7CE3-4D4B-B88E-550D4A3C7363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE45EE2-8A17-462A-978A-0FCD17BB2F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE45EE2-8A17-462A-978A-0FCD17BB2F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE45EE2-8A17-462A-978A-0FCD17BB2F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE45EE2-8A17-462A-978A-0FCD17BB2F04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
